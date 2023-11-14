@@ -1,0 +1,67 @@
+@charset "utf-8";
+@font-face {
+    font-family: vallon ;
+    src: url(Valoon.ttf);
+}
+@font-face {
+    font-family: melted ;
+    src: url(Melted\ Monster.ttf);
+}
+
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+
+body{
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner .content{
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    z-index: 1;
+    display: inline-block;
+    
+}
+
+.banner .content h1{
+    margin: 0;
+    padding: 0;
+    font-size: 7em ;
+    text-transform: uppercase;
+    color: #ffffffcc;
+    font-family: melted;
+    
+    
+}
+.banner .content p{
+    font-size: 1.5em ;
+    text-transform: uppercase;
+    color: rgb(178, 230, 171);
+    font-family: vallon;
+    
+}
+
+.banner video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+}
+
